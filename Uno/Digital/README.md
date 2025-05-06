@@ -2,6 +2,8 @@
 
 This directory contains projects that demonstrate the use of digital inputs and outputs on the Arduino Uno.
 
+![Digital Circuit Diagram](image.png)
+
 ## Digital Pins on Arduino Uno
 - 14 digital pins (0-13)
 - Each pin can be configured as INPUT or OUTPUT
