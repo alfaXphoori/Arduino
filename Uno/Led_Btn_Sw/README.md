@@ -2,7 +2,10 @@
 
 This project demonstrates the basic usage of LEDs, buttons, and switches with Arduino Uno.
 
+## Circuit Diagram
+
 ![Circuit Diagram](image.png)
+
 
 ## Components Required
 - Arduino Uno
@@ -13,22 +16,6 @@ This project demonstrates the basic usage of LEDs, buttons, and switches with Ar
 - 10kΩ Resistor (for button)
 - Breadboard
 - Jumper Wires
-
-## Circuit Diagram
-```
-Arduino Uno    LED Circuit
-    Pin 13 ----[220Ω]----[LED]----GND
-
-Arduino Uno    Button Circuit
-    Pin 2 ----[10kΩ]----GND
-              |
-              [Button]
-              |
-              +5V
-
-Arduino Uno    Switch Circuit
-    Pin 3 ----[Switch]----GND
-```
 
 ## Features
 - LED control using digital output
