@@ -89,7 +89,3 @@ Format: `Tilt | Temp | Soil | PIR | Distance(cm)`
 - Adjust mapping ranges in code for your specific sensors
 - Ensure all sensors share a common ground
 - For more details, see the comments in [`Digital_Sensor.ino`](Digital_Sensor.ino)
-
-## 👤 Author & License
-- Author: [Your Name]
-- License: MIT 
