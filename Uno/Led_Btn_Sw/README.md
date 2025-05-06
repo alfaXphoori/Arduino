@@ -2,6 +2,8 @@
 
 This project demonstrates the basic usage of LEDs, buttons, and switches with Arduino Uno.
 
+![Circuit Diagram](image.png)
+
 ## Components Required
 - Arduino Uno
 - LED (any color)
