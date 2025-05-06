@@ -29,18 +29,18 @@ This project demonstrates interfacing multiple digital and analog sensors with a
 - **Breadboard:** Used for easy prototyping and connecting multiple components.
 
 ## 🔌 Pin Configuration
-| Sensor/Component         | Arduino Pin |
-|-------------------------|-------------|
-| Tilt Sensor             | 2           |
-| Temperature Sensor      | A0          |
-| Temp Blue LED           | 3           |
-| Temp Green LED          | 4           |
-| Temp Red LED            | 5           |
-| Soil Moisture Sensor    | A1          |
-| PIR Motion Sensor       | 6           |
-| PIR LED                 | 7           |
-| Ultrasonic Trig (SR04)  | 8           |
-| Ultrasonic Echo (SR04)  | 9           |
+| Sensor/Component         | Arduino Pin | Description                       |
+|-------------------------|-------------|-----------------------------------|
+| Tilt Sensor             | 2           | Detects tilt/movement (digital)   |
+| Temperature Sensor      | A0          | Reads analog temperature value    |
+| Temp Blue LED           | 3           | Indicates low temperature         |
+| Temp Green LED          | 4           | Indicates normal temperature      |
+| Temp Red LED            | 5           | Indicates high temperature        |
+| Soil Moisture Sensor    | A1          | Measures soil moisture (analog)   |
+| PIR Motion Sensor       | 6           | Detects motion (digital)          |
+| PIR LED                 | 7           | Lights up on motion detection     |
+| Ultrasonic Trig (SR04)  | 8           | Trigger pin for distance sensor   |
+| Ultrasonic Echo (SR04)  | 9           | Echo pin for distance sensor      |
 
 ## 📝 Code Overview
 The main logic is implemented in [`Digital_Sensor.ino`](Digital_Sensor.ino):
