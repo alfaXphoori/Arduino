@@ -2,6 +2,8 @@
 
 This directory contains projects that demonstrate the use of analog inputs and outputs on the Arduino Uno.
 
+![Analog Circuit Diagram](image.png)
+
 ## Analog Pins on Arduino Uno
 - 6 analog input pins (A0-A5)
 - 6 analog output pins (PWM: 3, 5, 6, 9, 10, 11)
